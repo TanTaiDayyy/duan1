@@ -22,7 +22,6 @@
             </div>
         </div>
         <div class="background">
-
             <div class="galss">
                 <form action="">
                     <div class="b1">
@@ -92,7 +91,6 @@
                             <input class="button-2" type="reset" value="Re-fill">
                         </div>
                     </div>
-
                 </form>
             </div>
         </div>
