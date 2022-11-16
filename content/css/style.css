@@ -69,9 +69,9 @@ header.is-fixed {
   font-family: "Lily Script One", cursive;
 }
 
-.logo img {
+/* .logo img {
   display: block;
-}
+} */
 
 nav {
   flex: 0 0 50%;
@@ -97,7 +97,7 @@ nav ul li a {
   display: block;
   cursor: pointer;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .row {
