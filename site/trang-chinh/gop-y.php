@@ -19,14 +19,10 @@
         <div class="a1">
             <div class="a1-slide">
                 <p class="a1-title">FEEDBACK FOR US</p>
-                <p class="a1-p">T-Coffee</p>
             </div>
         </div>
         <div class="background">
-
             <div class="galss">
-
-
                 <form action="">
                     <div class="b1">
                         <p class="pt">About your self</p>
@@ -95,7 +91,6 @@
                             <input class="button-2" type="reset" value="Re-fill">
                         </div>
                     </div>
-
                 </form>
             </div>
         </div>
