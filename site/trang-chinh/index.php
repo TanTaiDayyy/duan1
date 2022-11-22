@@ -33,6 +33,12 @@
         $VIEW_NAME = "trang-chinh/hoi-dap.php";
     } else if (exist_param("chi-tiet")) {
         $VIEW_NAME = "../hang-hoa/chi-tiet.php";
+    } else if (exist_param("gio-hang")) {
+        $VIEW_NAME = "../gio-hang/gio-hang-page.php";
+    } else if (exist_param("thanh-toan")) {
+        $VIEW_NAME = "../gio-hang/thanh-toan-page.php";
+    } else if (exist_param("lich-su")) {
+        $VIEW_NAME = "../gio-hang/lich-su.php";
     } else {
         require_once '../../dao/hang-hoa.php';
         $items_all = hang_hoa_select_all();

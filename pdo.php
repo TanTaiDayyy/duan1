@@ -3,7 +3,7 @@
 // Mở kết nối 
 function pdo_get_connection()
 {
-    $dburl = "mysql:host=localhost;dbname=t-coffee;charset=utf8";
+    $dburl = "mysql:host=localhost;dbname=duan1;charset=utf8";
     $username = 'root';
     $password = '';
     $conn = new PDO($dburl, $username, $password);
@@ -77,6 +77,13 @@ function pdo_query_value($sql)
     }
 }
 
+function runSQL($sql)
+{
+    $db = pdo_get_connection();
+    $result = $db->prepare($sql);
+    $result->execute();
+    return $result->fetchAll(PDO::FETCH_ASSOC);
+}
 
 // => Thêm mới loại $sql = "INSERT INTO loai
 // (ten_loai) VALUES(?)";
