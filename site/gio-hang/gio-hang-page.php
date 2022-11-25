@@ -45,7 +45,6 @@
                     ?>
                         <form class="cart-prod-item" action="" method="POST">
                             <input type="hidden" name="ma_hh" value="<?php echo $sp['ma_hh']; ?>">
-                            <input type="hidden" name="size" value="<?php echo $sp['size'] ?>">
                             <div class="row cart-item">
                                 <div class="prod-img">
                                     <img src="<?= $CONTENT_URL ?>/images/products/<?php echo $sp['hinh']; ?>" alt="">
@@ -65,7 +64,6 @@
                                         <?php
                                         } ?>
                                     </h3>
-                                    <div class="size">SIZE: <span><?php echo (($sp['size']) ? $sp['size'] : ''); ?></span></div>
                                     <p>
                                         <input class="quantityInp" type="number" name="quantity" class="qty product-qty" value='<?php echo $sp['quantity'] ?>' /> x $<span class="prod-price">
                                             <?php echo $sp['don_gia']; ?>

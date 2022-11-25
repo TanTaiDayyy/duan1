@@ -94,7 +94,6 @@ if (exist_param('buy')) {
                             ?>
                                 <form class="payment-item" action="" method="POST">
                                     <input type="hidden" name="ma_hh" value="<?php echo $sp['ma_hh']; ?>">
-                                    <input type="hidden" name="size" value="<?php echo $sp['size'] ?>">
                                     <div class="row payment-item">
                                         <div class="payment-img">
                                             <img src="<?= $CONTENT_URL ?>/images/products/<?php echo $sp['hinh']; ?>" alt="">
@@ -102,7 +101,6 @@ if (exist_param('buy')) {
                                         <div class="payment-info">
                                             <p class="itemNumber">#QUE-007544-002</p>
                                             <h3><?php echo $sp['ten_hh']; ?></h3>
-                                            <div class="size">SIZE: <span><?php echo (($sp['size']) ? $sp['size'] : ''); ?></span></div>
                                             <p>
                                                 <span>Quantity:
                                                     <?php echo $sp['quantity'] ?>
