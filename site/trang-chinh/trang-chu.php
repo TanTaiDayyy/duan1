@@ -15,7 +15,7 @@
         </div>
         <div class="slider-content">
             <h3><span class="typing">Coffee with our story</span></h3>
-            <p>visit our the best coffee shop</p>
+            <p>Visit our the best coffee shop</p>
         </div>
     </div>
     <div class="content">
