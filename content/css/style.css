@@ -244,10 +244,10 @@ section .title {
   margin: auto;
 }
 
-section .container {
-  /* padding-top: 60px; */
-  /* padding-bottom: 70px; */
-}
+/* section .container {
+   padding-top: 60px; 
+   padding-bottom: 70px; 
+} */
 
 footer {
   padding-top: 48px;
