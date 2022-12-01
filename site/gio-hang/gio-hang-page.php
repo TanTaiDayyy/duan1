@@ -7,24 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?= $CONTENT_URL ?>/css/style.css">
     <link rel="stylesheet" href="<?= $CONTENT_URL ?>/css/gio-hang.css">
-    <title>gio hàng</title>
+    <title>Cart</title>
     <style>
-        .checkout-btn a {
-            width: 100%;
-            padding: 12px 24px;
-            text-transform: uppercase;
-            background-color: #000;
-            color: #fff;
-            font-size: 1.6rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 16px;
-        }
 
-        .checkout-btn a i {
-            font-size: 1.8rem;
-        }
     </style>
 </head>
 
@@ -34,20 +19,20 @@
             <div class="prod-list">
                 <div class="row">
                     <?php
-                    $cookie_data = isset($_COOKIE["cart"]) ? $_COOKIE['cart'] : '[]';
-                    $cart_data = json_decode($cookie_data, true);
-                    // var_dump($cart_data);
-                    $total = 0;
-                    foreach ($cart_data as $sp) :
-                        $giam_gia = $sp['giam_gia'] ? $sp['giam_gia'] : 0;
-                        $subtotal = ($sp['don_gia'] - (($sp['don_gia'] * $giam_gia) / 100)) * $sp['quantity'];
-                        $total += $subtotal;
+                        $cookie_data = isset($_COOKIE["cart"]) ? $_COOKIE['cart'] : '[]';
+                        $cart_data = json_decode($cookie_data, true);
+                        // var_dump($cart_data);
+                        $total = 0;
+                        foreach ($cart_data as $sp) :
+                            $giam_gia = $sp['giam_gia'] ? $sp['giam_gia'] : 0;
+                            $subtotal = ($sp['don_gia'] - (($sp['don_gia'] * $giam_gia) / 100)) * $sp['quantity'];
+                            $total += $subtotal;
                     ?>
                         <form class="cart-prod-item" action="" method="POST">
                             <input type="hidden" name="ma_hh" value="<?php echo $sp['ma_hh']; ?>">
                             <div class="row cart-item">
                                 <div class="prod-img">
-                                    <img src="<?= $CONTENT_URL ?>/images/products/<?php echo $sp['hinh']; ?>" alt="">
+                                    <img src="<?= $CONTENT_URL ?>/images/products/<?php echo $sp['hinh']; ?>" width="100%">
                                 </div>
                                 <div class="prod-info">
                                     <p class="itemNumber">#QUE-007544-002</p>
@@ -74,7 +59,7 @@
                                     <p class="prod-subtotal">$<?php echo $subtotal; ?></p>
                                 </div>
                                 <div class="prod-action">
-                                    <button class="delete-prod" name="delcart">x</button>
+                                    <button class="delete-prod" name="delcart"></button>
                                 </div>
                             </div>
                         </form>
