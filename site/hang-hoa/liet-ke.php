@@ -27,7 +27,7 @@ foreach ($items as $item) {
                     <h2 class="prod-title"><?= $ten_hh ?></h2>
                     <p class="prod-price"><?= number_format($don_gia, 0) ?>VND</p>
                 </div>
-                <button class="prod-action"><i class="fa-solid fa-plus"></i></button>
+                <button class="prod-action button-4"><i class="fa-solid fa-plus"></i></button>
             </div>
         </a>
     </div>

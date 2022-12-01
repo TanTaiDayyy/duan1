@@ -15,7 +15,7 @@
         </div>
         <div class="slider-content">
             <h3><span class="typing">Coffee with our story</span></h3>
-            <p>visit our the best coffee shop</p>
+            <p>Visit our the best coffee shop</p>
         </div>
     </div>
     <div class="content">
@@ -44,7 +44,7 @@
                         </div>
                         <div class="cate-content">
                             <h4>Who we are</h4>
-                            <p>history</p>
+                            <p>History</p>
                         </div>
                     </div>
                     <div class="cate-item">
@@ -53,7 +53,7 @@
                         </div>
                         <div class="cate-content">
                             <h4>Our Coffee</h4>
-                            <p>online store</p>
+                            <p>Online store</p>
                         </div>
                     </div>
                     <div class="cate-item">
@@ -62,13 +62,13 @@
                         </div>
                         <div class="cate-content">
                             <h4>Visit us!</h4>
-                            <p>location</p>
+                            <p>Location</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="testim">
+        <!-- <section class="testim">
             <div class="title">
                 Testimonial
             </div>
@@ -91,7 +91,7 @@
                     <i class="fa-solid fa-angle-right"></i>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
 </body>
 

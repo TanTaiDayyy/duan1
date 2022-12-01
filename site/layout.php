@@ -1,8 +1,5 @@
 <main>
     <header>
-        <div class="logo">
-            T-Coffee
-        </div>
         <?php require '../layout/nav.php' ?>
         <?php require '../layout/dang-nhap.php' ?>
     </header>
