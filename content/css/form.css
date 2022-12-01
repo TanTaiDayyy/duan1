@@ -1,4 +1,6 @@
 form {
+  margin-left: 30px;
+  box-shadow: 0 1px black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

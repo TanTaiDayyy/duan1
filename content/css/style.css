@@ -333,3 +333,15 @@ footer .copyright p {
   max-width: 100%;
   text-align: center;
 }
+.cart-checkout{
+  margin-left: 40px;
+}
+.payment-title{
+  margin-left: 30px;
+}
+.payment-summary{
+  margin-left: 50px;
+}
+p.prod-subtotal{
+  margin-left: 1000px;
+}
