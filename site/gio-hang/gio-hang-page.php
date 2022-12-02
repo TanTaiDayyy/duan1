@@ -28,7 +28,7 @@
                             $subtotal = ($sp['don_gia'] - (($sp['don_gia'] * $giam_gia) / 100)) * $sp['quantity'];
                             $total += $subtotal;
                     ?>
-                        <form class="cart-prod-item" action="" method="POST">
+                        <form class="cart-prod-item" action="../gio-hang/gio-hang.php" method="POST">
                             <input type="hidden" name="ma_hh" value="<?php echo $sp['ma_hh']; ?>">
                             <div class="row cart-item">
                                 <div class="prod-img">
@@ -59,7 +59,8 @@
                                     <p class="prod-subtotal">$<?php echo $subtotal; ?></p>
                                 </div>
                                 <div class="prod-action">
-                                    <button class="delete-prod" name="delcart"></button>
+                                    <button class="delete-prod" name="delcart"><i class="fa-regular fa-circle-xmark"></i></button>
+                                    
                                 </div>
                             </div>
                         </form>

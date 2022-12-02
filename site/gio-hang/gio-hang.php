@@ -95,6 +95,7 @@ if (exist_param('addcart')) {
                 $product_data = json_encode($cart_data);
 
                 setcookie("cart", $product_data, time() +  3600 * 24 * 30 * 12, '/');
+                header('Location: ../trang-chinh/index.php?gio-hang');
             }
         }
     }

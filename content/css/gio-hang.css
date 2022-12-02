@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 16px;
+    
 }
 
 .checkout-btn a i {
@@ -34,11 +35,13 @@
     width: 100%;
 }
 .prod-img {
-    width: 30%;
+    width: 10%;
 }
 
 .prod-info {
     width: 30%;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .prod-total {
@@ -47,13 +50,17 @@
 
 .prod-action {
     width: 10%;
+    margin-left: 230px;
+    margin-top: 40px;
 }
 .delete-prod {
     position: absolute;
-    width: 32px;
-    height: 32px;
+    width: 50px;
+    height: 50px;
     opacity: 0.3;
     border: none;
+    color:black;
+    
   }
   .delete-prod:hover {
     opacity: 1;
@@ -61,16 +68,27 @@
   .delete-prod:before, .delete-prod:after {
     position: absolute;
     left: 15px;
-    content: ' ';
+
     height: 33px;
-    width: 2px;
-    background-color: #333;
+    width: 33px;
   }
-  .delete-prod:before {
+  /* .delete-prod button i{
+    color: black;
+    background-color:white;
+
+  } */
+  button.delete-prod{
+    background-color:white;
+    
+  }
+  i.fa-regular.fa-circle-xmark::before{
+    color:#000;
+  }
+  /* .delete-prod:before {
     transform: rotate(45deg);
     top: 0px;
   }
   .delete-prod:after {
     transform: rotate(-45deg);
     top: 0px;
-  }
+  } */

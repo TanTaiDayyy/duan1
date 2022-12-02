@@ -69,6 +69,7 @@ if (exist_param('buy')) {
             font-size: 1.6rem;
             text-transform: uppercase;
             cursor: pointer;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -95,7 +96,7 @@ if (exist_param('buy')) {
                                 <form class="payment-item" action="" method="POST">
                                     <input type="hidden" name="ma_hh" value="<?php echo $sp['ma_hh']; ?>">
                                     <div class="row payment-item">
-                                        <div class="payment-img">
+                                        <div class="payment-img" width="140px">
                                             <img src="<?= $CONTENT_URL ?>/images/products/<?php echo $sp['hinh']; ?>" alt="">
                                         </div>
                                         <div class="payment-info">
