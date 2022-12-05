@@ -65,8 +65,8 @@
                 <li><?= $ma_kh ?></li>
                 <li><?= hang_hoa_select_by_id($ma_hh)['ten_hh'] ?></li>
                 <li><?= $ngay_binh_luan ?></li>
-                <li><a href="index.php?btn_edit&ma_loai=<?= $ma_bl ?>">Sua</a></li>
-                <li><a href="index.php?btn_delete&ma_loai=<?= $ma_bl ?>">Xoa</a></li>
+                <li><a href="index.php?btn_edit&ma_bl=<?= $ma_bl ?>">Sua</a></li>
+                <li><a href="index.php?btn_delete&ma_bl=<?= $ma_bl ?>">Xoa</a></li>
             </ul>
         <?php } ?>
     </div>

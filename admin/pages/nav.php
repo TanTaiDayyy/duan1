@@ -41,7 +41,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="../don-hang/">
                     <i class="fa-solid fa-chart-bar"></i>
                     <span class="link-name">Orders</span>
                 </a>
