@@ -59,7 +59,7 @@
                                     <p class="prod-subtotal">$<?php echo $subtotal; ?></p>
                                 </div>
                                 <div class="prod-action">
-                                    <button class="delete-prod" name="delcart"><i class="fa-regular fa-circle-xmark"></i></button>
+                                    <button class="delete-prod" name="delcart"><i  class="fa-regular fa-circle-xmark"></i></button>
                                     
                                 </div>
                             </div>

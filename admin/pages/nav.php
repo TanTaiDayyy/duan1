@@ -41,6 +41,12 @@
                 </a>
             </li>
             <li>
+                <a href="#">
+                    <i class="fa-solid fa-chart-bar"></i>
+                    <span class="link-name">Orders</span>
+                </a>
+            </li>
+            <li>
                 <a href="../../site/trang-chinh/">
                     <i class="uil uil-globe"></i>
                     <span class="link-name">Go to website</span>
