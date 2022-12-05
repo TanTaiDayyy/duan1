@@ -84,13 +84,13 @@
             appearance: none;
             background-color: transparent;
             border: 2px solid #1A1A1A;
-            border-radius: 15px;
+            border-radius: 5px;
             box-sizing: border-box;
             color: #3B3B3B;
             cursor: pointer;
             display: inline-block;
             font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 600;
             line-height: normal;
             margin: 0;
