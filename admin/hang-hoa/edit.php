@@ -15,33 +15,34 @@
             flex: 0 0 100%;
             max-width: 100%;
         }
+
         .button-28 {
             appearance: none;
             background-color: transparent;
-            border: 2px solid #1A1A1A;
-            border-radius: 15px;
+            border: 1px solid #1A1A1A;
+            border-radius: 5px;
             box-sizing: border-box;
             color: #3B3B3B;
             cursor: pointer;
             display: inline-block;
             font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 600;
             line-height: normal;
             margin: 0;
-            min-height: 60px;
-            width: 150px;
+            width: 170px;
             outline: none;
-            padding: 16px 24px;
+            padding: 12px 24px;
             text-align: center;
             text-decoration: none;
             transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
             user-select: none;
             -webkit-user-select: none;
             touch-action: manipulation;
-            margin: 0 auto;
             will-change: transform;
-            margin-bottom: 100px;
+            margin-top: 15px;
+            margin-left: -50px;
+            height: 44px;
         }
 
         .button-28:disabled {
@@ -58,6 +59,11 @@
         .button-28:active {
             box-shadow: none;
             transform: translateY(0);
+        }
+        .controller {
+            display: flex;
+            margin-top: 20px;
+            margin-left: -150px;
         }
     </style>
 </head>
@@ -79,8 +85,8 @@
             </div>
             <div class="form-group">
                 <label for="">Product Image</label>
-                <input name="up_hinh" type="file">
-                <input name="hinh" value="<?= $hinh ?>">
+                <input name="up_hinh" type="file" width="50%">
+                <input name="hinh" value="<?= $hinh ?> " width="50%">
             </div>
             <div class="form-group">
                 <label for="">Product Description</label>
@@ -111,16 +117,20 @@
                     <?php } ?>
                 </select>
             </div>
-            <div class="form-group">
-                <input type="hidden" name="ma_hh" value="<?= $ma_hh ?>">
-                <button type="submit" name="btn_update">Update</button>
+            <div class="controller">
+                <div class="form-group">
+                    <input type="hidden" name="ma_hh" value="<?= $ma_hh ?>">
+                    <button type="submit" name="btn_update">Update</button>
+                </div>
+                <div class="row">
+                    <a href="index.php?btn_list" class="button-28">List of product</a>
+                    <!-- <a href="index.php?btn_list" class="btn">list</a> -->
+                </div>
             </div>
+
         </form>
     </div>
-    <div class="row">
-        <a href="index.php?btn_list" class="button-28">List of product</a>
-        <!-- <a href="index.php?btn_list" class="btn">list</a> -->
-    </div>
+
 </body>
 
 </html>

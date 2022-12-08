@@ -12,8 +12,9 @@
             width: 100%;
             display: flex;
             flex-wrap: wrap;
+            margin-top: 30px;
         }
-
+ 
         ul.prod_item {
             padding: 12px 24px;
             width: 100%;
@@ -83,7 +84,7 @@
         .button-28 {
             appearance: none;
             background-color: transparent;
-            border: 2px solid #1A1A1A;
+            border: 1px solid #1A1A1A;
             border-radius: 5px;
             box-sizing: border-box;
             color: #3B3B3B;
@@ -94,19 +95,19 @@
             font-weight: 600;
             line-height: normal;
             margin: 0;
-            min-height: 60px;
-            width: 150px;
+            width: 170px;
             outline: none;
-            padding: 16px 24px;
+            padding: 12px 24px;
             text-align: center;
             text-decoration: none;
             transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
             user-select: none;
             -webkit-user-select: none;
             touch-action: manipulation;
-            margin: 0 auto;
             will-change: transform;
-            margin-bottom: 100px;
+            margin-top: 50px;
+            margin: 0 auto;
+            height: 44px;
         }
 
         .button-28:disabled {
