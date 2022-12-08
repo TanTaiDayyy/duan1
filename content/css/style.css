@@ -109,6 +109,7 @@ nav ul li a {
 }
 
 .row {
+  
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -377,4 +378,6 @@ p.prod-subtotal{
 .payment-sumary{
   margin-left: 40px;
 }
-
+.my-4{
+  text-align:center;
+}

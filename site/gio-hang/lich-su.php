@@ -20,9 +20,9 @@ if ($listBill == null) {
         <div class="safe-area my-4">
             <div class="row">
                 <h5>Chi tiết đơn hàng</h5>
-                <br>
+                <br>    
                 <!-- info -->
-                <div class="table-responsive-md col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="table-responsive-md  col-sm-12 col-xs-12 lichsu" >
                     <table class="table-order-detail" width="100%">
 
                         <tbody>
@@ -50,17 +50,18 @@ if ($listBill == null) {
                                 <td>ngày đặt hàng:</td>
                                 <td><?= $bill['ngay_tao'] ?></td>
                             </tr>
-                            <tr>
+                            <tr class="custom">
                                 <td>Tổng tiền:</td>
                                 <td><?= $bill['total'] ?></td>
                             </tr>
+    </br>
                         </tbody>
                     </table>
                 </div>
                 <!-- end info -->
 
                 <!-- list-product -->
-                <div class="list-product col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="list-product  col-sm-12 col-xs-12">
                     <div class="table-responsive-md">
                         <table class="table table-centered" id="btn-editable">
                             <thead>
@@ -91,7 +92,8 @@ if ($listBill == null) {
                 <!-- end list product -->
 
                 <div>
-                    <div style="background-color: #bbc1cc;" class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    
+                    <div style="background-color: #bbc1cc;padding: 12px 24px;border-radius: 5px;" class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <?php
                         switch ($bill['trang_thai']) {
                             case '0':
