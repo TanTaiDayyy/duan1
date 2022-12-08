@@ -41,11 +41,7 @@
                                         <?php
                                         if ($giam_gia > 0) {
                                         ?>
-                                            <div class="prod-sale">
-                                                <span>
-                                                    -<?= $giam_gia ?>%
-                                                </span>
-                                            </div>
+                                            
                                         <?php
                                         } ?>
                                     </h3>
@@ -63,6 +59,7 @@
                                     
                                 </div>
                             </div>
+                            <button style="background-color: black;padding: 12px 24px;border-radius: 5px;color: white;text-align: center" class="submit-cart" type="submit" name="updateqty">Update Cart</button>
                         </form>
                     <?php
                     endforeach;
