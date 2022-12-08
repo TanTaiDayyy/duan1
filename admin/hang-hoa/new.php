@@ -46,7 +46,8 @@
             box-shadow: none;
             transform: translateY(0);
         }
-        .controller{
+
+        .controller {
             display: flex;
             margin-top: 20px;
             margin-left: -150px;
@@ -55,6 +56,9 @@
 </head>
 
 <body>
+<div class="row title">
+        <h1>PRODUCT ADD ITEM</h1>
+    </div>
     <div class="row">
         <form action="index.php" method="post" enctype="multipart/form-data">
             <div class="form-group">
@@ -103,12 +107,12 @@
                 </select>
             </div>
             <div class="controller">
-                            <div class="form-group">
-                <button type="submit" name="btn_insert">Add</button>
-            </div>
-            <div class="row">
-                <a href="index.php?btn_list" class="btn button-28">List of Product</a>
-            </div>
+                <div class="form-group">
+                    <button type="submit" name="btn_insert">Add</button>
+                </div>
+                <div class="row">
+                    <a href="index.php?btn_list" class="btn button-28">List of Product</a>
+                </div>
             </div>
 
         </form>
