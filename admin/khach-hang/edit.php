@@ -112,7 +112,8 @@
                         <label for="">Customer</label>
                     </div>
                 </div>
-            </div>            <div class="form-group">
+            </div>
+            <div class="form-group">
                 <label for="">Status</label>
                 <select name="kich_hoat" id="">
                     <option value="1" <?php echo ($kich_hoat == 1) ? "selected" : "" ?>>Active</option>
@@ -128,10 +129,8 @@
                     <a href="index.php?btn_list" class="btn button-28">Customer List</a>
                 </div>
             </div>
-
         </form>
     </div>
-
 </body>
 
 </html>
