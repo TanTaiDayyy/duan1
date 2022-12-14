@@ -14,12 +14,12 @@ if ($listBill == null) {
 <!-- CONTENT -->
 <div class="container cart-content">
 
-    <h4 class="my-4">Lịch sử mua hàng</h4>
+    <h4 class="my-4">History Orders</h4>
 
     <?php foreach ($listBill as $bill) : ?>
         <div class="safe-area my-4">
             <div class="row">
-                <h5>Chi tiết đơn hàng</h5>
+                <h5>Order Details</h5>
                 <br>    
                 <!-- info -->
                 <div class="table-responsive-md  col-sm-12 col-xs-12 lichsu" >
@@ -27,31 +27,31 @@ if ($listBill == null) {
 
                         <tbody>
                             <tr>
-                                <td>Mã đơn hàng:</td>
+                                <td>ID:</td>
                                 <td><?= $bill['ma_hd'] ?></td>
                             </tr>
                             <tr>
-                                <td>Tên khách hàng:</td>
+                                <td>Name:</td>
                                 <td><?= $bill['ho_ten'] ?></td>
                             </tr>
                             <tr>
-                                <td>Số điện thoại:</td>
+                                <td>Phone:</td>
                                 <td><?= $bill['so_dien_thoai'] ?></td>
                             </tr>
                             <tr>
-                                <td>Địa chỉ:</td>
+                                <td>Address:</td>
                                 <td><?= $bill['dia_chi'] ?></td>
                             </tr>
                             <tr>
-                                <td>Ghi chú:</td>
+                                <td>Note:</td>
                                 <td><?= $bill['ghi_chu'] ?></td>
                             </tr>
                             <tr>
-                                <td>ngày đặt hàng:</td>
+                                <td>Date:</td>
                                 <td><?= $bill['ngay_tao'] ?></td>
                             </tr>
                             <tr class="custom">
-                                <td>Tổng tiền:</td>
+                                <td>TotalBill:</td>
                                 <td><?= $bill['total'] ?></td>
                             </tr>
     </br>
@@ -66,10 +66,10 @@ if ($listBill == null) {
                         <table class="table table-centered" id="btn-editable">
                             <thead>
                                 <tr>
-                                    <th>Tên sản phẩm</th>
-                                    <th>Số lượng</th>
-                                    <th>Giá</th>
-                                    <th>Thành tiền</th>
+                                    <th>Product</th>
+                                    <th>Quantity</th>
+                                    <th>Price</th>
+                                    <th>Total</th>
                                     <th></th>
                                 </tr>
                             </thead>
@@ -97,19 +97,19 @@ if ($listBill == null) {
                         <?php
                         switch ($bill['trang_thai']) {
                             case '0':
-                                echo '<span>Chưa xác nhận</span>';
+                                echo '<span>Uncofirm</span>';
                                 break;
                             case '1':
-                                echo '<span>Đang chuẩn bị hàng</span>';
+                                echo '<span>Prepare</span>';
                                 break;
                             case '2':
-                                echo '<span>Đang gửi hàng</span>';
+                                echo '<span>Delivery</span>';
                                 break;
                             case '3':
-                                echo '<span>Giao hàng thành công</span>';
+                                echo '<span>Finished</span>';
                                 break;
                             case '4':
-                                echo '<span>Đã huỷ</span>';
+                                echo '<span>Cancel</span>';
                                 break;
                         }
                         ?>

@@ -80,10 +80,6 @@
                 <input type="text" name="don_gia" value='<?= $don_gia ?>'>
             </div>
             <div class="form-group">
-                <label for="">Product Sale</label>
-                <input type="text" name="giam_gia" value='<?= $giam_gia ?>'>
-            </div>
-            <div class="form-group">
                 <label for="">Product Image</label>
                 <input name="up_hinh" type="file" width="50%">
                 <input name="hinh" value="<?= $hinh ?> " width="50%">

@@ -68,9 +68,9 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="testim">
+         <section class="testim">
             <div class="title">
-                Testimonial
+               
             </div>
             <div class="testim-wrap">
                 <div class="testim-left">
@@ -84,14 +84,14 @@
                     <li class="dot"></li>
                     <li class="dot"></li>
                     <li class="dot"></li>
-                    <!-- <li class="dot"></li>
-                <li class="dot"></li> -->
+                    <li class="dot"></li>
+                    <li class="dot"></li>
                 </ul>
                 <div class="testim-right">
                     <i class="fa-solid fa-angle-right"></i>
                 </div>
             </div>
-        </section> -->
+        </section>
     </div>
 </body>
 

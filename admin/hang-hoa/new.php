@@ -70,10 +70,6 @@
                 <input type="text" name="don_gia">
             </div>
             <div class="form-group">
-                <label for="">Product Sale</label>
-                <input type="text" name="giam_gia">
-            </div>
-            <div class="form-group">
                 <label for="">Product Image</label>
                 <input type="file" name="hinh">
             </div>

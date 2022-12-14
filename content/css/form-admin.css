@@ -1,9 +1,7 @@
 form {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   flex: 0 0 60%;
-  max-width: 60%;
   padding: 28px;
   margin: 0 auto;
 }

@@ -9,7 +9,11 @@
     <title>Document</title>
     <style>
         .prod_item {
+            width: 100%;    
             list-style: none;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0 1px black;
         }
     </style>
 </head>

@@ -136,7 +136,6 @@
         <ul class="prod_item">
             <li>Name</li>
             <li class="prod-price">Price</li>
-            <li class="prod-sale">Sale</li>
             <li class="prod-image">Image</li>
             <li>Date</li>
             <li>Description</li>
@@ -152,7 +151,6 @@
             <ul class="prod_item">
                 <li><?= $item['ten_hh'] ?></li>
                 <li class="prod-price"><?= $item['don_gia'] ?> VNĐ</li>
-                <li class="prod-sale"><?= $item['giam_gia'] ?></li>
                 <li class="prod-image">
                     <img src="<?= "$IMAGE_DIR/products/" . $item['hinh'] ?>" alt="">
                 </li>
