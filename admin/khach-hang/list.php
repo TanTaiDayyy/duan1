@@ -119,13 +119,13 @@
     </div>
     <div class="row">
         <ul class="prod_item">
-            <li>Ma KH</li>
-            <li>Ho Ten</li>
+            <li>ID</li>
+            <li>Name</li>
             <li></li>
-            <li class="user-image">Hinh</li>
+            <li class="user-image">Image</li>
             <li>Email</li>
-            <li>Vai Tro</li>
-            <li>Kich Hoat</li>
+            <li>Position</li>
+            <li>Status</li>
             <li class="prod-action"></li>
             <li class="prod-action"></li>
         </ul>
